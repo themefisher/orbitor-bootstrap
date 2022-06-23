@@ -1,0 +1,35 @@
+@@include('header.htm')
+@@include('blocks/navigation.htm')
+@@include('blocks/page-title.htm', {
+"title": "Blog articles",
+"description": "Our blog"
+})
+
+<section class="section blog-wrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        @@include('blocks/blog-posts.htm')
+      </div>
+      <div class="col-lg-4">
+        @@include('blocks/post-sidebar.htm')
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-lg-8">
+        <nav class="pagination py-2 d-inline-block">
+          <div class="nav-links">
+            <span aria-current="page" class="page-numbers current">1</span>
+            <a class="page-numbers" href="#">2</a>
+            <a class="page-numbers" href="#">3</a>
+            <a class="page-numbers" href="#"><i class="ti-angle-right"></i></a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+@@include('blocks/footer.htm')
+@@include('footer.htm')
