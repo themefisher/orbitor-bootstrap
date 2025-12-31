@@ -1,6 +1,6 @@
 # Orbitor Free Bootstrap Agency Template
 
-![orbitor](https://demo.themefisher.com/thumbnails/orbitor.png)
+![orbitor](https://assets.teamosis.com/thumbs/orbitor.png)
 
 👉🏻[View Live Preview](https://demo.themefisher.com/orbitor/)
 
